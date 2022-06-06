@@ -1,6 +1,8 @@
 import './Square.css';
 import React, { useEffect } from 'react';
 
+//Hello from here!
+
 function Square(props) {
     let text = props.grid[props.num]
     const handleClick = (e) => {
