@@ -1,0 +1,9 @@
+.Board{
+    font-size: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100%, auto);
+    background: #000;
+}
